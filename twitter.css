@@ -32,6 +32,21 @@
     font-display: 'swap';
    }
 
+/* Structure */
+
+.main {
+    display: flex;
+}
+
+.big-logo {
+    padding: 32px;
+    height: fit-content;
+    background-image: url(/assets/img/big-logo-bg.png);
+    color: white;
+    fill: currentColor;
+}
+
+/* Logos, brands and trade marks */
 
 .logo{
     display: inline-block;
